@@ -1,0 +1,5 @@
+# Add CI specific values here
+
+aissemble-spark-operator-chart:
+  ivyCache:
+    storeCacheOnNode: true

@@ -1,0 +1,11 @@
+# Add CI specific values here
+
+aissemble-configuration-store-chart:
+  aissemble-quarkus-chart:
+    deployment:
+      image:
+        imagePullPolicy: IfNotPresent
+
+  configurationVolume:
+    storageType: "local"
+    volumePathOnNode: "/Users/csun/bah/tests/test-313/src/main/resources/configurations"
